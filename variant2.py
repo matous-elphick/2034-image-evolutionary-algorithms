@@ -61,7 +61,7 @@ MAX_POLYGON_COUNT = 100  # Number of polygons 100 working
 POLYGON_COUNT = 10  # Number of polygons 100 working
 BACKGROUND_COLOUR = "black"
 MAX = 255 * 200 * 200  # Number of bits for the image
-TARGET = Image.open("test-images/darwin.png")  # Target Image to be reconstructed
+TARGET = Image.open("target-images/darwin.png")  # Target Image to be reconstructed
 TARGET.load()  # Read image and close the file
 
 
