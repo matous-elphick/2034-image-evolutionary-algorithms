@@ -335,10 +335,6 @@ def run(population=75, survival_rate=0.1, mutation_rate=0.01, generations=2000,
 
         fitness_array.append(median_fitness(population=population))
 
-        if population.current_best.fitness - (population.current_best.fitness % 0.95):
-            draw(population.current_best.chromosome, True, i, path)
-            exit()
-
     draw(best_population.current_best.chromosome, True, path=path)
     print()
     print("Best Fitness: ", best_fitness, "Generation Number: ", best_generation_number)
