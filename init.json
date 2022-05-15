@@ -1,0 +1,7 @@
+{
+  "population":300,
+  "survival_rate":0.1,
+  "mutation_rate":0.005,
+  "generations":150,
+  "target_image":"test-images/cat.png"
+}
